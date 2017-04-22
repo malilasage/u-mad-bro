@@ -1,6 +1,13 @@
 $(function() {
-  console.log('sickk');
+  var color = $('#color-box');
   $('#btn').on('click', () => {
-    console.log('u clicked!');
+    $.get('/emotion', (data, status) => {
+      if (status != 'success') {
+        console.log('error');
+      }
+      else {
+        color.css('background-color', data);
+      }
+    })
   })
 })

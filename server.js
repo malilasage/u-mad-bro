@@ -5,10 +5,14 @@ var path = require('path');
 
 app.use(express.static(path.join(__dirname, '/client')))
 
-app.get('/api', function(req, res) {
+app.get('/api', (req, res) => {
   res.send('cool');
 })
 
-app.listen(port, function() {
+app.get('/emotion', (req, res) => {
+  res.send('blue');
+})
+
+app.listen(port, () => {
   console.log('listening on port ' + port);
 })
