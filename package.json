@@ -1,0 +1,19 @@
+{
+  "name": "hack-cu",
+  "version": "1.0.0",
+  "description": "an app to anaylyze tone of speech for those with ASD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malilasage/u-mad-bro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malilasage/u-mad-bro/issues"
+  },
+  "homepage": "https://github.com/malilasage/u-mad-bro#readme"
+}
