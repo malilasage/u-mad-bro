@@ -3,11 +3,9 @@ var app = express();
 var port = process.env.PORT || 4000;
 var path = require('path');
 
-app.use(express.static(path.join(__dirname, '/client')))
-
-app.get('/api', (req, res) => {
-  res.send('cool');
-})
+app.use(express.static(path.join(__dirname, './client')))
+app.use(express.static(path.join(__dirname, '/../', 'client')))
+app.use(express.static(path.join(__dirname, '/../', 'node_modules')))
 
 app.get('/emotion', (req, res) => {
   res.send('blue');
