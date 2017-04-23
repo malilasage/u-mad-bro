@@ -1,18 +1,49 @@
 main {
   text-align: center;
-  margin: auto;
-  margin-top: 40px;
-  width: 50%;
+  margin: 0 auto;
+  width: 100% inherit;
+  max-width: 850px;
+  padding: 10px;
 }
 
 body {
-  margin: auto;
+  margin: 0;
   margin-top: 50px;
-  width: 80%;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+h5 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  position: relative;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+header {
+  padding: 0px;
+  margin: 0px !important
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  padding: 0 50px
 }
 
 .content {
   margin-bottom: 80px;
+  width: auto;
+  text-align: center;
 }
 
 #header {
@@ -21,17 +52,26 @@ body {
 }
 
 .emotion {
-  margin: 25px;
+  margin: 20px;
   display: inline-block;
-  max-width: 80px;
+  max-width: auto;
   text-align: center;
 }
 
 .color-box {
-  height: 60px;
-  width: 60px;
-  border: 3px solid black;
-  margin: auto;
+  height: 95px;
+  width: 100px;
+  border-radius: 50px;
+  transition: 0.2s;
+  margin: 10px;
+  padding-top: 5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.color-box:hover {
+  transform: translate(-2px, -2px);
+  transform: scale(1.05);
+  box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.4);
 }
 
 .anger {
