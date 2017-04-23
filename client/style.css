@@ -1,0 +1,17 @@
+main {
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  width: 50%;
+}
+
+#btn {
+  margin-bottom: 60px;
+}
+
+#color-box {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  border: 3px solid black;
+}
