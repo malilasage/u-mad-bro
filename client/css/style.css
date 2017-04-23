@@ -1,0 +1,55 @@
+main {
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  width: 50%;
+}
+
+body {
+  margin: auto;
+  margin-top: 50px;
+  width: 80%;
+}
+
+.content {
+  margin-bottom: 80px;
+}
+
+#header {
+  font-size: 6em;
+  text-align: center;
+}
+
+.emotion {
+  margin: 25px;
+  display: inline-block;
+  max-width: 80px;
+  text-align: center;
+}
+
+.color-box {
+  height: 60px;
+  width: 60px;
+  border: 3px solid black;
+  margin: auto;
+}
+
+.anger {
+  background-color: #ff2323;
+}
+
+.joy {
+  background-color: #ffe628;
+}
+
+.sadness {
+  background-color: #2881ff;
+}
+
+.fear {
+  background-color: #099b1c;
+}
+
+.disgust {
+  background-color: #b522ff;
+}
