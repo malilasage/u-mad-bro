@@ -5,6 +5,12 @@ main {
   width: 50%;
 }
 
+body {
+  margin: auto;
+  margin-top: 40px;
+  width: 80%;
+}
+
 #btn {
   margin-bottom: 60px;
 }
