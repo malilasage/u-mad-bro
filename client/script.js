@@ -10,4 +10,12 @@ $(function() {
       }
     })
   })
+
+  //header animation
+  var options = {
+    separator: '|',
+    animation: 'flipInX',
+    interval: 3000
+  };
+  $('#span1').cycleText(options);
 })
