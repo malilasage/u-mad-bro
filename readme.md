@@ -9,10 +9,12 @@ This application was created in 24 hours during the [Hack CU](https://2017.hackc
 
 Since our code is spread across Github and the CloudPebble IDE and had so many contributors, we created a video to demonstrate our final product. Click on the image above to view the video in Vimeo.
 
-### Note
-The api was created and deployed seperately and can be viewed [here](https://github.com/THEAverageSpeedBurrito/speech_to_color_api).
+### Structure
+The watch picks up on speech and converts it to text, before calling our API. The API we created processes the text and JSON returned from IBM watson, and returns a simple object containing the dominant emotion and corresponding color to the watch app. 
 
-Our project can also be viewed on [Devpost](https://devpost.com/software/u-mad-bro).
+- The api was deployed seperately and can be seen [here](https://github.com/THEAverageSpeedBurrito/speech_to_color_api).
+- The watch app itself is located in the CloudPebble IDE but the code can be seen [here](../cloudpebble.js)
+- Our HackCU submission is on [Devpost](https://devpost.com/software/u-mad-bro)
 
 ### Contributors
 - [Alex Andrei](https://github.com/AlexAndrei98)
