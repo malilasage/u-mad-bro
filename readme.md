@@ -13,7 +13,7 @@ Since our code is spread across Github and the CloudPebble IDE and had so many c
 The watch picks up on speech and converts it to text, before calling our API. The API we created processes the text and JSON returned from IBM watson, and returns a simple object containing the dominant emotion and corresponding color to the watch app. 
 
 - The api was deployed seperately and can be seen [here](https://github.com/THEAverageSpeedBurrito/speech_to_color_api).
-- The watch app itself is located in the CloudPebble IDE but the code can be seen [here](../cloudpebble.js)
+- The watch app itself is located in the CloudPebble IDE but the code can be seen [here](https://github.com/malilasage/u-mad-bro/blob/master/cloudpebble.js)
 - Our HackCU submission is on [Devpost](https://devpost.com/software/u-mad-bro)
 
 ### Contributors
